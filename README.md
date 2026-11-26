@@ -5,6 +5,9 @@ markdown
 
 ## Содержание
 
+### Справочные материалы (`cheatsheets/`)
+- **[Базовая шпаргалка SOC L1](./cheatsheets/soc-l1-cheatsheet.md)** — внутренние IP-диапазоны, сетевые порты, Event ID Windows, команды Linux и правила проверки IoC.
+
 ### Расследования Windows и SIEM (`windows/`)
 - **[Кейс №1: Ночной брутфорс RDP и скрытый запуск PowerShell](./windows/case-01.md)** — анализ Event ID `4625`, `4624`, `4688` и сетевого соединения C2.
 - **[Кейс №2: Рабочая смена в SIEM (3 инцидента)](./windows/case-02.md)** — фишинг с запароленным архивом (`True Positive`), плановые работы админа по SMB (`False Positive`) и блокировка перебора RDP.
